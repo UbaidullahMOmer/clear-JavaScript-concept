@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScriptConcept</title>
 </head>
+
 <body>
     <h1>JavaScript Concepts</h1>
 </body>
 <script>
-    
-    // JavaScript Comments
+    // 4 Ways to Declare a JavaScript Variable:
+    // Using var
+    // Using let
+    // Using const
+    // Using nothing
 
-    // Single line Comments
+    //What are Variables?
+    //Variables are containers for storing data (storing data values).
 
+    // In this example, x, y, and z, are variables, declared with the var keyword:
+    // Example
+        var x = 5;
+        var y = 6;
+        var z = x + y;
 
-   /*
-    JavaScript Comments
-    Multi line comment line 
-    Comments
-    */
+    // In this example, x, y, and z, are variables, declared with the let keyword:
+    // Example
+        let x = 5;
+        let y = 6;
+        let z = x + y;
 
+    //When to Use JavaScript var?
+    //Always declare JavaScript variables with var, let, orconst.
+
+    //The var keyword is used in all JavaScript code from 1995 to 2015.
+
+    // The let and const keywords were added to JavaScript in 2015.
+
+    // If you want your code to run in older browsers, you must use var.
+
+    //When to Use JavaScript const?
+
+    //If you want a general rule: always declare variables with const.
+
+    // If you think the value of the variable can change, use let.
+
+    // In this example, price1, price2, and total, are variables:
+
+    // Example
+        const price1 = 5;
+        const price2 = 6;
+        let total = price1 + price2;
+        
+    //When to use JavaScript const?
+
+    //Always declare a variable with const when you know that the value should not be changed.
+
+    //Use const when you declare:
+
+    // Variables defined with const cannot be Redeclared.
+
+    // Variables defined with const cannot be Reassigned.
+
+    // Variables defined with const have Block Scope.
+
+    //A new Array
+    //A new Object
+    //A new Function
+    //A new RegExp
 </script>
+
 </html>
