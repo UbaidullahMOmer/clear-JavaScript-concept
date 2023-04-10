@@ -10,35 +10,63 @@
 
 <body>
     <h1>JavaScript Concepts</h1>
+    <p id="demo"></p>
+
+    <script>
+        // JavaScript Assignment Operators
+    // Assignment operators assign values to JavaScript variables.
+    
+    // The Addition Assignment Operator (+=) adds a value to a variable.
+    
+    // Assignment
+    // let x = 10;
+    // x += 5;
+    // Operator	    Example	        Same As
+    // =	        x = y	        x = y
+    // +=	        x += y	        x = x + y
+    // -=	        x -= y	        x = x - y
+    // *=	        x *= y	        x = x * y
+    // /=	        x /= y	        x = x / y
+    // %=	        x %= y	        x = x % y
+    // **=	        x **= y	        x = x ** y
+    
+    // The = Operator
+    // The Simple Assignment Operator assigns a value to a variable.
+    
+    // Simple Assignment Examples
+    // let x1 = 10;
+    // let x2 = 10 + y;
+    
+    
+    // Shift Assignment Operators
+    
+    // ..............
+    
+    // Bitwise Assignment Operators
+    
+    // ..............
+    
+    
+    
+    
+    // The JavaScript this Keyword
+    
+    const person = {
+      firstName: "John",
+      lastName: "Doe",
+      id: 5566,
+      fullName : function() {
+        return this.firstName + " " + this.lastName;
+      }
+    };
+    
+    // Display data from the object:
+    document.getElementById("demo").innerHTML = person.fullName();
+    
+    
+    
+    
+    
+    </script>
 </body>
-<script>
-    // JavaScript Assignment Operators
-// Assignment operators assign values to JavaScript variables.
-
-// The Addition Assignment Operator (+=) adds a value to a variable.
-
-// Assignment
-let x = 10;
-x += 5;
-// Operator	    Example	        Same As
-// =	        x = y	        x = y
-// +=	        x += y	        x = x + y
-// -=	        x -= y	        x = x - y
-// *=	        x *= y	        x = x * y
-// /=	        x /= y	        x = x / y
-// %=	        x %= y	        x = x % y
-// **=	        x **= y	        x = x ** y
-
-// Shift Assignment Operators
-
-// ..............
-
-// Bitwise Assignment Operators
-
-// ..............
-
-
-
-</script>
-
 </html>
